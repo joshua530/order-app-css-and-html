@@ -1,0 +1,120 @@
+img {
+  max-width: 100%;
+}
+
+.product {
+  max-width: 180px;
+  border: 1px solid green;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.product:hover, .product:focus, .product:active {
+  background-color: #e4ffe4;
+  -webkit-box-shadow: 0 0 5px green;
+          box-shadow: 0 0 5px green;
+}
+
+.product a {
+  color: #000;
+  text-decoration: none;
+}
+
+.product-image {
+  border-radius: 50%;
+}
+
+.product-info .info {
+  display: block;
+}
+
+nav a,
+.navbar a,
+footer a {
+  color: green;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+nav a:hover, nav a:focus,
+.navbar a:hover,
+.navbar a:focus,
+footer a:hover,
+footer a:focus {
+  color: limegreen;
+}
+
+.order-quantity-box input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.order-quantity-box input::-webkit-outer-spin-button,
+.order-quantity-box input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.order-quantity-box input,
+.order-quantity-box button {
+  background: none;
+  border: 1px solid green;
+  height: 30px;
+}
+
+.order-quantity-box button {
+  color: green;
+  width: 30px;
+  background: #fff;
+}
+
+.order-quantity-box button:hover, .order-quantity-box button:focus, .order-quantity-box button:active {
+  background: green;
+  color: #fff;
+}
+
+.order-quantity-box .btn-add {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.order-quantity-box .btn-minus {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.order-quantity-box .order-quantity {
+  max-width: 50px;
+  outline: none;
+}
+
+.order-placement-form .btn-submit {
+  width: 100%;
+  margin-top: 10px;
+  background: none;
+  border: 1px solid green;
+  color: green;
+  height: 2.6em;
+}
+
+.order-placement-form .btn-submit:hover, .order-placement-form .btn-submit:focus, .order-placement-form .btn-submit:active {
+  background: green;
+  color: #fff;
+}
+
+.product-info-img {
+  max-width: 400px;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-light-0 {
+  font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 600;
+}
